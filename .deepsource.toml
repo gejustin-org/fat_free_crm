@@ -1,6 +1,54 @@
 version = 1
 
 [[analyzers]]
+name = "sql"
+
+[[analyzers]]
+name = "scala"
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "java"
+
+  [analyzers.meta]
+  runtime_version = "11"
+
+[[analyzers]]
+name = "cxx"
+
+[[analyzers]]
+name = "rust"
+
+  [analyzers.meta]
+  msrv = "stable"
+
+[[analyzers]]
+name = "php"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/gejustin-org/fat_free_crm"
+
+[[analyzers]]
+name = "csharp"
+
+[[analyzers]]
+name = "test-coverage"
+
+[[analyzers]]
+name = "terraform"
+
+[[analyzers]]
+name = "ansible"
+
+[[analyzers]]
 name = "docker"
 
 [[analyzers]]
